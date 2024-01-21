@@ -546,6 +546,11 @@ section.frontend-dev{
     cursor: pointer;
 }
 
+/*=*=*=*=*=*=*=*=*(🦋) section : newsletter (🦋)*=*=*=*=*=*=*=*=*/
+section.newsletter {
+    background-color: #4362cf;
+}
+
 /*=*=*=*=*=*=*=*=*(🐙) section : footer (🐙)*=*=*=*=*=*=*=*=*/
 section.footer {
     background-color: #1c1f2b;
