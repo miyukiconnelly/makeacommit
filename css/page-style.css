@@ -1,0 +1,44 @@
+/*=*=*=*=*=*=*=*=*(🐙) sub-pages (🐙)*=*=*=*=*=*=*=*=*/
+
+.content-container {
+    margin: 0 auto;
+    max-width: 840px;
+    padding: 4rem 0;
+}
+.subpage-header {
+    text-align: center;
+}
+
+.subpage-title {
+    font-size: 46px;
+    color: #ddd;
+    margin-bottom: 0.5rem;
+}
+
+.subpage-subtitle {
+    font-size: 18px;
+}
+
+.page hr {
+    margin: 2.5rem auto;
+}
+
+.topic-group-title {
+    color: #bbb;
+    font-size: 18px;
+    margin-bottom: .75rem;
+}
+
+.topic-list {
+    font-size: 18px;
+    color: #ccc;
+    margin-left: 36px;
+}
+
+.topic-list-item {
+    margin-bottom: .25rem;
+}
+
+.sub-topic-list {
+    margin-left: 36px;
+}
