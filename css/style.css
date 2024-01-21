@@ -59,7 +59,7 @@ h3 {
     font-size: 24px;
     font-weight: 300;
     text-transform: capitalize;
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 
@@ -72,7 +72,8 @@ h3 {
     color: #818491;
     color: #8f939f;
     font-size: 20px;
-    font-weight: 400;
+    line-height: 1.65;
+    /* font-weight: 400; */
 }
 
 h4 {
@@ -422,13 +423,14 @@ section.panorama-landing .section-container {
     /* border-radius: 26px; */
     color: #333;
     letter-spacing: .5px;
-    padding: 24px 40px;
-    /* padding: 24px 48px; */
+    padding: 24px 36px;
+    /* padding: 24px 44px; */
 }
 
 .panorama-landing-btn:hover i {
     color: var(--binarypilot-blue);
     color: #4362cf;
+    color: #82a3fe;
     margin-left: 1rem;
     font-size: 110%;
 }
@@ -474,7 +476,7 @@ section.introduction {
     color: #808493;
     color: #8f939f;
     font-size: 14px;
-    font-size: 14.5px;
+    font-size: 15px;
     font-weight: 300;
     letter-spacing: .125px;
     line-height: 1.75;
@@ -577,6 +579,9 @@ section.footer .section-container {
 }
 
 .footer-title {
+    display: flex;
+    align-items: center;
+
     color: #333;
     color: #e1e1e1;
     font-size: 16px;
@@ -592,6 +597,11 @@ section.footer .section-container {
     padding-right: 5px;
     color: #ddd;
     font-weight: 200;
+}
+
+.footer-title-icon {
+    padding-right: 8px;
+    color: #aeaeae;
 }
 
 .footer-creator {
